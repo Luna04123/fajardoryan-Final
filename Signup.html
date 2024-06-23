@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+            background: white;
+            display: flex;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; 
+            background-image: url('LBG.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+        }
+        .container {
+            margin: auto;
+            width: 500px;
+            max-width: 90%;
+        }
+        .container form {
+            width: 100%;
+            height: 40%;
+            padding: 20px;
+            background: linear-gradient(170deg, rgba(192,192,192,0.6), blue);
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0,0,0,.3);
+        }
+        .container form h1 {
+            text-align: center;
+            margin-bottom: 24px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="signup-form" novalidate>
+            <center>
+                <h1>Create an Account</h1>
+                <div id="con">
+                    <input type="text" name="Fullname" id="Fullname" placeholder="Fullname:" required /> 
+                    <br><br>
+                    <input type="email" name="Email" id="Email" placeholder="Email:" required /> 
+                    <br><br>
+                    <input type="text" name="Username" id="Username" placeholder="Username:" required /> 
+                    <br><br>
+                    <input type="password" name="Password" id="Password" placeholder="Password:" required /> 
+                    <br><br>
+                    <input type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder="Confirm Password:" required /> 
+                    <br><br>
+                    <input type="submit" value="Sign Up" />
+                    <a href="login.html">Back</a>
+                </div>
+            </center>
+        </form>
+    </div>
+    <script src="Javascript.js"></script>
+</body>
+</html>

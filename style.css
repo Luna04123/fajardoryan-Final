@@ -1,0 +1,523 @@
+body{
+    background-color: gray;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* --------------------------------------------------------------------    */
+
+header{
+    color: white;
+    padding: 30px 30px 100px 70px;
+}
+
+header nav ul{
+    color: white;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header nav ul li{
+    color: white;
+    display: inline-block;
+    margin: 0px 50px  0px 0px;  
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;  
+}
+
+header nav ul li:hover a{
+    background-color: white;
+    color: black;
+}
+
+/* section-----------------------------------------------------------------------------------    */
+
+li {
+    list-style-type: none;
+}
+
+/* -----------------------------------------------------------------------------------    */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 20px 25px 5px;
+
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;  
+}
+
+footer nav ul li{
+    color: white;
+    display: inline-block;
+    margin: 25px 50px  0px 0px;  
+}
+footer nav ul li:hover a{
+    background-color: white;
+    color: black;
+}
+
+
+/* home page-------------------------------------------------------------------------*/
+
+body.home{
+    background-color: white;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+header.home {
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+header.home h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: white;
+}
+
+section.home{
+    background-color: rgb(41, 59, 47);
+    background-image: url(7.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+h2.home{
+    
+    color: white;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 200px 0px 0px 5px;
+}
+
+p.home{
+    color: white;
+    display: flex;
+    padding: 0% 70% 15% 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*Biography-------------------------------------------------------------------------------*/
+
+body.biography{
+    background-color: rgb(41, 59, 47);
+    color: rgb(10, 10, 10);
+    padding: 0px;
+    margin: 0px;
+}
+
+header.biography {
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
+
+header.biography h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: rgb(255, 248, 248);
+}
+
+section ul.biography{
+    background-color: white;
+    background-image: url(1.jpg);
+    background-size: contain;
+    width: 80%;
+    background-position: right; 
+    background-repeat: no-repeat;
+    padding: 30px 20px 40px 30px;
+    margin-left: 10%;
+    
+}
+
+ul.biography h3,h2{
+    color: black;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 20px 15px 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+ul.biography h2{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;;
+    padding: 15px 20px 15px 20px; 
+}
+
+/* Education page----------------------------------------------------------------*/
+
+
+body.education{
+    background-color: rgb(41, 59, 47);
+    color: rgb(10, 10, 10);
+    padding: 0px;
+    margin: 0px;
+}
+
+header.education h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: rgb(255, 248, 248);
+}
+
+header.education {
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
+
+figure.education{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px 20px 50px 450px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    
+}
+
+section.education h1, h2{
+    color: white;
+    padding: 20px;
+}
+
+.education h2{
+    color: white;
+}
+
+/* HOBBYY PAGE ------------------------------------------------------*/
+
+body.hobby{
+    background-color: rgb(41, 59, 47);
+    color: rgb(10, 10, 10);
+    padding: 0px;
+    margin: 0px;
+}
+
+header.hobby {
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
+
+header.hobby h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: rgb(255, 248, 248);
+}
+
+section ul.hobby{
+    background-color: white;
+    background-image: url(9.jpg);
+    background-size: contain;
+    width: 80%;
+    background-position: right; 
+    background-repeat: no-repeat;
+    padding: 30px 20px 40px 30px;
+    margin-left: 10%;
+    
+}
+
+ul.hobby h3,h2{
+    color: black;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 20px 15px 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+ul.hobby h2{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;;
+    padding: 15px 20px 15px 20px; 
+}
+
+/*Roots Page---------------------------------------------------------------------------------*/
+
+body.root{
+    background-color: rgb(41, 59, 47);
+    color: rgb(10, 10, 10);
+    padding: 0px;
+    margin: 0px;
+}
+
+header.root h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: rgb(255, 248, 248);
+}
+
+header.root {
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
+
+figure.root{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px 20px 50px 450px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    
+}
+
+figure.root1{
+    text-align: center;
+    background-color: white;
+    border-radius: 20%;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    margin: 20px 20px 50px 40%;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+}
+
+section.root h1{
+    color: white;
+    padding: 20px 20px 20px 45%;
+}
+
+
+/*CONTACT--------------------------------------------------------------------------------------------------------------------*/
+
+body.contact{
+    background-color: white;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+header.contact {
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+header.contact h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: white;
+}
+
+section.contact{
+    background-color: rgb(41, 59, 47);
+}
+
+
+.contact h2{
+    color: white;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 20px 10px 20px;
+}
+
+.contact p{
+    color: white;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+.contact ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+/*Gallery Page------------------------------------------*/
+
+body.gallery{
+    background-color: rgb(41, 59, 47);
+    color: rgb(10, 10, 10);
+    padding: 0px;
+    margin: 0px;
+}
+
+header.gallery h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: rgb(255, 248, 248);
+}
+
+header.gallery {
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
+
+figure.gallery{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px 20px 50px 450px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    
+}
+
+section.gallery h1{
+    color: white;
+    padding: 20px;
+}
+
+/*People---------------------------------------------------------------------*/
+
+body.people{
+    background-color: rgb(41, 59, 47);
+    color: rgb(10, 10, 10);
+    padding: 0px;
+    margin: 0px;
+}
+
+header.people h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: rgb(255, 248, 248);
+}
+
+header.people {
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
+
+figure.people{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px 20px 50px 450px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    
+}
+
+section.people h1{
+    color: white;
+    padding: 20px;
+}
+
+/*SPORTS PAGE-----------------------------------------------------------------------------------------*/
+
+body.sport{
+    background-color: rgb(41, 59, 47);
+    color: rgb(10, 10, 10);
+    padding: 0px;
+    margin: 0px;
+}
+
+header.sport h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: rgb(255, 248, 248);
+}
+
+header.sport {
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
+
+figure.sport{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px 20px 50px 450px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    
+}
+
+section.sport h1{
+    color: white;
+    padding: 20px;
+}
+
+/*ACHIEVEMENTS----------------------------------------------------------------*/
+
+body.achievement{
+    background-color: rgb(41, 59, 47);
+    color: rgb(10, 10, 10);
+    padding: 0px;
+    margin: 0px;
+}
+
+header.achievement h1{
+    margin: 60px 40px 0px 0px;
+    font-size: 400%;
+    color: rgb(255, 248, 248);
+}
+
+header.achievement{
+    padding: 30px 30px 90px 70px;
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
+
+figure.achievement{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px 20px 50px 450px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    
+}
+
+section.achievement h1{
+    color: white;
+    padding: 20px;
+}
